@@ -20,4 +20,13 @@ python main.py
 ```
 Choose your language and just paste code starting with ``HC1`` into application and press ``Enter``. 
 
-## Credits
+# Contributors
+[@cichy1173](https://github.com/cichy1173)
+
+[@shogun-PB](https://github.com/Shogun-PB)
+
+# Thanks to
+[@MigguL](https://github.com/MigguL)
+
+[informatykzakladowy.pl](www.informatykzakladowy.pl)
+
