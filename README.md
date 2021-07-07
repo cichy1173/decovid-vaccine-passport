@@ -16,7 +16,7 @@ After that type:
 ```bash
 git clone https://github.com/cichy1173/decovid-vaccine-passport.git
 cd decovid-vaccine-passport
-python main.py
+python3 main.py
 ```
 Choose your language and just paste code starting with ``HC1`` into application and press ``Enter``. 
 
