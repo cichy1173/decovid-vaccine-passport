@@ -75,6 +75,7 @@ def printingData(lang, jsonObject):
         quiting()        
 
 def polishPrintingData(jsonObject):
+
     print("")
     print("Wersja certyfikatu: ", jsonObject['-260']['1']['ver'])
     print("Data wydania certyfikatu: ",datetime.utcfromtimestamp(int(jsonObject['6'])).strftime('%Y-%m-%d %H:%M:%S'))
@@ -99,6 +100,7 @@ def polishPrintingData(jsonObject):
     print("")
 
 def englishPrintingData(jsonObject):
+    
     print("")
     print("Certificate version: ", jsonObject['-260']['1']['ver'])
     print("Release date: ",datetime.utcfromtimestamp(int(jsonObject['6'])).strftime('%Y-%m-%d %H:%M:%S'))
