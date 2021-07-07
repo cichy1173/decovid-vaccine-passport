@@ -9,7 +9,7 @@ CERTIFICATE = subtitles.secondStep(LANGUAGE)
 
 decodedData = decoding.decodeCertificate(CERTIFICATE)
 
-subtitles.printingData(LANGUAGE,decodedData)
+subtitles.printingData(LANGUAGE, decodedData)
 
 
 
