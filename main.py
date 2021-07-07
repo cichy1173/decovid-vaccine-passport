@@ -7,7 +7,10 @@ LANGUAGE = subtitles.chooseLanguage()
 subtitles.firstStep(LANGUAGE)
 CERTIFICATE = subtitles.secondStep(LANGUAGE)
 
-decoding.decodeCertificate(CERTIFICATE)
+decodedData = decoding.decodeCertificate(CERTIFICATE)
+
+subtitles.printingData(LANGUAGE, decodedData)
+
 
 
 
